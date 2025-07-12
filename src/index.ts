@@ -18,7 +18,7 @@ app.get('/health', (c) => {
 
 // Root endpoint (optional)
 app.get('/', (c) => {
-  return c.text('Hono Server is running!')
+  return c.text('Hono Server is running!!')
 })
 
 // 404 handler

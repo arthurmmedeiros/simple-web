@@ -4,6 +4,7 @@
   "description": "Simple Hono server with health endpoint",
   "main": "dist/index.js",
   "scripts": {
+    "deploy": "npm install && npm run build",
     "build": "tsc",
     "start": "node dist/index.js",
     "dev": "tsx watch src/index.ts"
